@@ -18,12 +18,24 @@ from django.urls import include, path
 from rest_framework import routers
 from rest_framework.authtoken.views import obtain_auth_token
 from notchlistApi.models import *
+from notchlistApi.views import *
 from django.conf import settings
 from django.conf.urls.static import static
 
 
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'users', Users, 'user')
+router.register(r'beers', Beers, 'beer')
+router.register(r'wines', Wines, 'wine')
+router.register(r'cocktails', Cocktails, 'cocktail')
+router.register(r'glasswares', Glasswares, 'glassware')
+router.register(r'beer_serving_styles', Beer_Serving_Styles, 'beer_serving_style')
+router.register(r'drink_styles', Drink_Styles, 'drink_style')
+router.register(r'cocktail_ingredients', Cocktail_Ingredients, 'cocktail_ingredient')
+router.register(r'ingredients', Ingredients, 'ingredient')
+
+
 
 
 urlpatterns = [
