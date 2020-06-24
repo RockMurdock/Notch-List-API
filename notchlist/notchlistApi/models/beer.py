@@ -6,9 +6,9 @@ from .drink_style import Drink_Style
 
 class Beer(models.Model):
 
-    user = models.OneToOneField(User, related_name='beer_reviewer', on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name='beer_reviewer', on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
-    drink_style = models.ForeignKey(Drink_Style, on_delete=models.CASCADE)
+    drink_style = models.ForeignKey(Drink_Style, related_name='drink_style', on_delete=models.CASCADE)
     location_name = models.CharField(max_length=50)
     location_address = models.CharField(max_length=255)
     brewery = models.CharField(max_length=50)
@@ -16,7 +16,7 @@ class Beer(models.Model):
     description = models.CharField(max_length=500)
     abv = models.CharField(max_length=10)
     ibu = models.CharField(max_length=10)
-    beer_serving_style = models.ForeignKey(Beer_Serving_Style, on_delete=models.CASCADE)
+    beer_serving_style = models.ForeignKey(Beer_Serving_Style, related_name='beer_serving_style', on_delete=models.CASCADE)
     image_path = models.ImageField(upload_to="beer", null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

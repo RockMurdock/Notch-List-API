@@ -3,7 +3,8 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from notchlistApi.models import Beer
+from notchlistApi.models import Beer, Drink_Style, Beer_Serving_Style
+from django.contrib.auth.models import User
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 
 class BeerSerializer(serializers.HyperlinkedModelSerializer):
@@ -14,8 +15,8 @@ class BeerSerializer(serializers.HyperlinkedModelSerializer):
             view_name = 'beer',
             lookup_field = 'id'
         )
-        fields = ('id', 'url', 'user_id', 'name', 'drink_style_id', 'location_name','location_address', 'brewery', 'rating', 'description', 'abv', 'ibu', 'beer_serving_style_id', 'image_path')
-        # depth = 1
+        fields = ('id', 'url', 'user_id', 'name', 'drink_style_id', 'location_name','location_address', 'brewery', 'rating', 'description', 'abv', 'ibu', 'beer_serving_style_id', 'image_path', 'created_at', 'user', 'drink_style', 'beer_serving_style')
+        depth = 2
 class Beers(ViewSet):
 
     parser_classes = (MultiPartParser, FormParser, JSONParser, )
@@ -34,6 +35,7 @@ class Beers(ViewSet):
         new_beer.ibu = request.data['ibu']
         new_beer.beer_serving_style_id = request.data['beer_serving_style_id']
         new_beer.image_path = request.data['image_path']
+        new_beer.created_at = request.data['created_at']
         new_beer.save()
 
     
@@ -50,7 +52,7 @@ class Beers(ViewSet):
             return HttpResponseServerError(ex)
 
     def update(self, request, pk=None):
-        beer = Beer.object.get(pk=pk)
+        beer = Beer.objects.get(pk=pk)
         beer.name = request.data['name']
         beer.drink_style_id = request.data['drink_style_id']
         beer.location_name = request.data['location_name']
@@ -62,6 +64,7 @@ class Beers(ViewSet):
         beer.ibu = request.data['ibu']
         beer.beer_serving_style_id = request.data['beer_serving_style_id']
         beer.image_path = request.data['image_path']
+        beer.created_at = request.data['created_at']
         beer.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
@@ -78,7 +81,8 @@ class Beers(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def list(self, request):
-        beers = Beer.objects.all()
+        
+        beers = Beer.objects.filter(user=self.request.user)
 
         serializer = BeerSerializer(
             beers, many=True, context={'request': request}

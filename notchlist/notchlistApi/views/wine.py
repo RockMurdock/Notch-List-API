@@ -3,7 +3,8 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from notchlistApi.models import Wine
+from notchlistApi.models import Wine, Drink_Style
+from django.contrib.auth.models import User
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 
 class WineSerializer(serializers.HyperlinkedModelSerializer):
@@ -14,8 +15,8 @@ class WineSerializer(serializers.HyperlinkedModelSerializer):
             view_name = 'wine',
             lookup_field = 'id'
         )
-        fields = ('id', 'url', 'user_id', 'name', 'drink_style_id', 'location_name','location_address', 'winery', 'rating', 'description', 'abv', 'year', 'image_path')
-        # depth = 1
+        fields = ('id', 'url', 'user_id', 'name', 'drink_style_id', 'location_name','location_address', 'winery', 'rating', 'description', 'abv', 'year', 'image_path', 'created_at', 'user', 'drink_style')
+        depth = 2
 class Wines(ViewSet):
 
     parser_classes = (MultiPartParser, FormParser, JSONParser, )
@@ -33,6 +34,7 @@ class Wines(ViewSet):
         new_wine.abv = request.data['abv']
         new_wine.year = request.data['year']
         new_wine.image_path = request.data['image_path']
+        new_wine.created_at = request.data['created_at']
         new_wine.save()
 
     
@@ -49,7 +51,7 @@ class Wines(ViewSet):
             return HttpResponseServerError(ex)
 
     def update(self, request, pk=None):
-        wine = Wine.object.get(pk=pk)
+        wine = Wine.objects.get(pk=pk)
         wine.name = request.data['name']
         wine.drink_style_id = request.data['drink_style_id']
         wine.location_name = request.data['location_name']
@@ -60,6 +62,7 @@ class Wines(ViewSet):
         wine.abv = request.data['abv']
         wine.year = request.data['year']
         wine.image_path = request.data['image_path']
+        wine.created_at = request.data['created_at']
         wine.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
@@ -76,7 +79,7 @@ class Wines(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def list(self, request):
-        wines = Wine.objects.all()
+        wines = Wine.objects.filter(user=self.request.user)
 
         serializer = WineSerializer(
             wines, many=True, context={'request': request}
