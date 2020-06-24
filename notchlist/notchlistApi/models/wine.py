@@ -5,9 +5,9 @@ from .drink_style import Drink_Style
 
 class Wine(models.Model):
 
-    user = models.OneToOneField(User, related_name='wine_reviewer', on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name='wine_reviewer', on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
-    drink_style = models.ForeignKey(Drink_Style, on_delete=models.CASCADE)
+    drink_style = models.ForeignKey(Drink_Style, related_name='wine_drink_style', on_delete=models.CASCADE)
     location_name = models.CharField(max_length=50)
     location_address = models.CharField(max_length=255)
     winery = models.CharField(max_length=50)
@@ -15,7 +15,7 @@ class Wine(models.Model):
     description = models.CharField(max_length=500)
     abv = models.CharField(max_length=10)
     year = models.CharField(max_length=10)
-    image_path = models.ImageField(upload_to="beer", null=True, blank=True)
+    image_path = models.ImageField(upload_to="wine", null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
