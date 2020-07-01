@@ -3,7 +3,7 @@
         "model":"notchlistApi.glassware",
         "pk": 1,
         "fields": {
-            "name": "American Pint Glass",
+            "name": "American Pint",
             "description":"The simple, utilitarian 16-ounce American pint glass is slightly wider at the mouth than at the base. You’ll find it in large numbers in bars and restaurants across the United States, where it is used to serve a wide range of beer styles. Its ubiquity owes to the fact that it is relatively inexpensive to manufacture and easy to clean and store. The American pint glass’s basic design neither enhances nor seriously detracts from any particular beer style. Consider it your run-of-the-mill, all-purpose glass. ",
             "image_path":"glassware/American-PintGlass.jpeg"
         }
@@ -12,7 +12,7 @@
         "model":"notchlistApi.glassware",
         "pk": 2,
         "fields": {
-            "name": "Imperial Pint Glass",
+            "name": "Imperial Pint",
             "description":"Like its close relative the American pint glass, the imperial pint glass is  all purpose. Unlike its U.S. counterpart, however, the imperial pint holds a full 20 ounces. It also differs in that it features  a small lip at the mouth.  Consider it your basic, go-to glass for British ales and lagers like pale ale, India pale ale, amber/red ale, brown ale, porter, milk stout, oatmeal stout, Scotch ale.",
             "image_path":"glassware/Imperial-Pint-Glass.jpg"
         }
@@ -21,7 +21,7 @@
         "model":"notchlistApi.glassware",
         "pk": 3,
         "fields": {
-            "name": "Pilsner Glass",
+            "name": "Pilsner",
             "description":"Tall, slim, and slightly wider at the mouth, a pilsner glass makes visible the sparkle, clarity, and bubbles of pilsners and other lighter beers. At the same time, it helps retain a beer’s head, which keeps volatile aromatics locked under your nose. Typically, pilsner glasses hold less beer than a pint glass–usually somewhere in the vicinity of 12 to 14 ounces. Appropriate beer styles include Pilsner, American adjunct lagers, bock, helles bock, maibock, Vienna lager, blonde ale, California common, Japanese rice lager, witbier ",
             "image_path":"glassware/Pilsner.jpg"
         }
@@ -30,7 +30,7 @@
         "model":"notchlistApi.glassware",
         "pk": 4,
         "fields": {
-            "name": "Tulip Glass",
+            "name": "Tulip",
             "description":"With a bulbous body and a flared lip, the tulip glass is designed to capture the head and promote the aroma and flavor of Belgian ales and other malty, hoppy beers. Its short stem facilitates swirling, further enhancing your sensory experience.  Appropriate beer styles include: Belgian strong ale, Belgian dark ale, barleywine, double/imperial IPA, Belgian IPA, Belgian pale ale, bière de garde, Flanders red ale, gueuze, fruit lambic, saison, American wild ale, Scotch ale",
             "image_path":"glassware/Tulip-Glass.jpg"
         }
@@ -39,7 +39,7 @@
         "model":"notchlistApi.glassware",
         "pk": 5,
         "fields": {
-            "name": "Thistle Glass",
+            "name": "Thistle",
             "description":"A modified version of the tulip glass, the shape of a thistle glass resembles Scotland’s national flower (the thistle). It is characterized by a short stem, bulbous bottom, and elongated top section that’s noticeably more sharp and angular than that of the tulip.  Appropriate beer styles include: Scotch ale, wee heavy ",
             "image_path":"glassware/Thistle-Glass.jpg"
         }
@@ -48,7 +48,7 @@
         "model":"notchlistApi.glassware",
         "pk": 6,
         "fields": {
-            "name": "Goblet Glass",
+            "name": "Goblet",
             "description":"The goblet glass has a large, head-retaining round bowl and a thick stem. Chalices are similar, but tend to have thicker bowl walls. Both types can be highly decorative and sometimes feature intricate etching or precious metal inlaying. Their wide mouth design promotes big, hearty sips. Heavy, dark beers like Belgian IPAs, Belgian strong dark ale, dubbel, tripel, quad.",
             "image_path":"glassware/Goblet.jpg"
         }
@@ -57,7 +57,7 @@
         "model":"notchlistApi.glassware",
         "pk": 7,
         "fields": {
-            "name": "IPA Glass",
+            "name": "IPA",
             "description":"The iconic ridges of the IPA glass aerate your favorite hoppy beer with each sip, releasing volatile aromatics in the process. Meanwhile, the tall, slender, tapered bowl concentrates and directs those hop aromatics to your nose. Some IPA glasses are also nucleated (etched) at the bottom to help release carbonation and promote a steady stream of cascading bubbles. Appropriate beer styles include any and all varieties of IPAs. ",
             "image_path":"glassware/IPA-Glasses.jpg"
         }
@@ -66,7 +66,7 @@
         "model":"notchlistApi.glassware",
         "pk": 8,
         "fields": {
-            "name": "Stout Glass",
+            "name": "Stout",
             "description":"Designed by Spiegelau in partnership with Left Hand Brewing Company from Colorado and Rogue Ales from Oregon, this distinctive stout glass deserves a spot in every beer connoisseurs china cabinet. The shape of the base and angle of the bowl accentuate the roasted malts and notes of rich coffee and chocolate that define stout beers. The angled shelf and narrow mouth promote head retention. Any and all varieties of stouts ",
             "image_path":"glassware/Stout-Glass.jpg"
         }
@@ -75,7 +75,7 @@
         "model":"notchlistApi.glassware",
         "pk": 9,
         "fields": {
-            "name": "Weizen Glass",
+            "name": "Weizen",
             "description":"The weizen glass features thin walls and a lot of length to showcase the color of wheat beers. The design also locks in the style’s signature banana and clove aromas and provides proper space for a thick, fluffy head. They are sometimes confused with pilsner glasses, but there are important distinctions. A weizen glass typically holds a ⅕ liter of beer (compared to a pilsner’s 12 to 14 ounces), and it boasts some attractive curvature.  Appropriate beer styles include: Wheat ale, dunkelweizen, hefeweizen, kristalweizen, weizenbock. ",
             "image_path":"glassware/Weizen-Glass.jpg"
         }
@@ -84,7 +84,7 @@
         "model":"notchlistApi.glassware",
         "pk": 10,
         "fields": {
-            "name": "Stange Glass",
+            "name": "Stange",
             "description":"The stange glass–which gets its name from the German word for pole–is narrow, straight, and cylindrical. Like a champagne flute, the stange concentrates soft hop and malt aromas and preserves carbonation. Unlike a flute, however, the stange has a thick-bottomed base for reliable sturdiness. Appropriate beer styles include: Delicate beers like kölsch, bocks, lambics, gose, Czech pilsners, rye beer, altbier, rauchbier",
             "image_path":"glassware/Stange-Glass.jpg"
         }
@@ -93,7 +93,7 @@
         "model":"notchlistApi.glassware",
         "pk": 11,
         "fields": {
-            "name": "Teku Stemmed Glass",
+            "name": "Teku",
             "description":"Widely recognized as one of the finest craft beer glasses available today, the visually stunning Teku glass was designed by an Italian sensory expert and craft brewer. It features an 11.2- or 14.2-ounce tulip-like bowl, a remarkably thin lip, and an elegant long stem that prevents your hands from transferring warmth to your beer. The Teku bills itself as appropriate for all styles. That said, the glass does a phenomenal job of concentrating aromatics and accentuating flavor profiles, so very strong beers can be overpowering when served in one. It particularly works well for lambics and other sours, gruit, fruit, and heather beers. ",
             "image_path":"glassware/Teku-Glass.jpg"
         }
@@ -114,6 +114,123 @@
             "name": "Beer Boot",
             "description":"Beer boots, or “das boots,” have been popular at beer festivals and parties in the United States for decades. They are often used for drinking games or in macho displays of drinking prowess. Their origin, though, is rooted in Bavarian beer culture. According to legend, a Prussian general promised his troops he would drink a beer from his own leather boot in exchange for a win on the battlefield. When his men proved victorious, he commissioned a glass likeness of his boot to spare himself the displeasure of drinking foot beer. From there, it is believed the glass gained popularity, and in time, it was folded into Oktoberfest traditions. The beer boot eventually made its way to North America thanks to the returning World War II soldiers who observed the tradition while serving overseas.  Appropriate beer styles include: Märzen / oktoberfest, witbier, assorted German beers. ",
             "image_path":"glassware/Glass-Beer-Boots.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 14,
+        "fields": {
+            "name": "Cabernet",
+            "description":"One of the tallest of all of the red wine glasses, cabernet wine glasses are specially created to intensify the smell of the wine. They magnify and focus it because of their shape, making drinking from them an experience that you are sure to enjoy. In addition, because the bowl of the glass is so wide, it allows the wine to breathe properly. The aroma then is captured by the narrow mouth.  It’s important when you are using a cabernet wine glass that you do not overfill it as it is much better for the taste, smell, and enjoyment of the wine to have smaller amounts poured into the glass. This ensures that the wine is as fragrant as possible when you drink it. This is a common problem for people because the wine glasses are so large that it makes it easy to overpour; however, you never want to pour more wine than can fill the widest part of the bowl. ",
+            "image_path":"glassware/Cabernet.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 15,
+        "fields": {
+            "name": "Burgandy",
+            "description":"These special glasses have a wider bowl than Bordeaux glasses do. The bowl is bigger so that it can accommodate some of the aromas of wines that are bit more delicate. Due to the shape of the glass, the drinker will experience tasting the wine first on the tip of the tongue, then throughout the mouth.  Having the wine directly at the tip of the tongue ensures that you can fully taste and smell even the most delicate wine and keeps you from missing any of the amazing nuances that may be in a particular glass of wine. Some of these glasses have a shorter stem that will keep the wine glass from being at risk of toppling over but these stems are still long enough that you can easily swirl the wine to incorporate air and enjoy the best possible taste and smell.  The lip on these glasses is often quite thin, which doesn’t just help keep the wine at the front of your mouth but also makes them very easy to drink out of.",
+            "image_path":"glassware/Burgandy.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 16,
+        "fields": {
+            "name": "Bordeaux",
+            "description":"Bordeaux wine glasses have the honor of being the tallest red wine glass but with a much smaller bowl than some of the other available glasses.  They are perfect for full-bodied wines such as a Merlot or Cabernet and their shape ensures that you will have the best possible drinking experience when you use them. Since the wine glass is so tall, when you drink out of it, the wine will easily travel to the back of the mouth instead of remaining up near the tip of your tongue.  This ensures that you taste all of the amazing flavors of your wine without it being bitter or too much to drink. Wine drinkers find that this especially helps if the wine that you are drinking is a little young or does not have the full, rich flavors traditionally associated with Bordeaux.",
+            "image_path":"glassware/Bordeaux.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 17,
+        "fields": {
+            "name": "Zinfandel",
+            "description":"The perfect wine glass for Zinfandel is a little shorter than the Bordeaux wine glass and has a slightly larger rim. This ensures that you experience the full flavor and smell of your wine. You will want to look for glasses that have a thin rim as anything thick or bumpy will detract from the overall experience of the wine that you are drinking.  Thicker rims will actually impede how the wine flows into your mouth and with a lighter wine such as Zinfandel, you want to make sure that there is nothing in its way. The bowl is also smaller than the Bordeaux or Cabernet wine glass but still large enough that the wine is able to breathe. This will improve the overall flavor of the wine and your whole drinking experience.",
+            "image_path":"glassware/Zinfandel.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 18,
+        "fields": {
+            "name": "Pinot Noir",
+            "description":"Pinot Noir glasses are gorgeous and have the widest bowl of any of the red or white wine glasses. This ensures that the wine has as much contact with the air as possible and will greatly improve its aroma and flavor. The bowl is large enough for you to swirl it and a crystal-clear glass will allow you to observe the wine during this action.  These glasses have slightly shorter stems than other red wine glasses. The easiest way to tell them apart from other types of red wine glasses is to pay attention to the rim. It is turned out from the glass, which directs the flavors and smell of the wine directly to your nose and mouth. While you can drink Pinot Noir from any kind of glass that you want to, if you want to fully enjoy this wine, then you will only drink it from a special glass.",
+            "image_path":"glassware/Pinot Noir.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 19,
+        "fields": {
+            "name": "Rose",
+            "description":"Rose glasses have a long stem that ensures that the heat from your hand does not affect the wine. You want your wine to remain at a cool temperature and the stem allows that. There are two main kinds of rose glasses that you can find: ones with a short bowl and flared lip and others with a short bowl and a short taper.  Either one is fine for drinking this delicious wine but the flared lip is preferred when you are going to be enjoying a younger wine. These wines are generally less sweet than their aged counterparts and the flared lip will direct the wine to your sweet-sensitive taste buds. This minimizes any unpleasant aftertaste and maximizes the sweetness of your drink. More mature rose will be perfectly served in a glass that has a short taper.",
+            "image_path":"glassware/Rose.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 20,
+        "fields": {
+            "name": "Chardonnay",
+            "description":"In general, glasses specifically designed for white wine will have a more upright and “U”-shaped bowl than those created to enhance the enjoyment of red wine. A great Chardonnay glass will be similar in shape to the Pinot Noir glass but will be smaller. It’s perfect for younger white wines as the opening is slightly larger, which will direct the wine that you are enjoying to the sides and tip of the tongue instead of the back of the mouth.",
+            "image_path":"glassware/Chardonnay.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 21,
+        "fields": {
+            "name": "Viognier",
+            "description":"The Viognier wine glass has a smaller bowl than a sweet wine glass and a slightly more open rim. It’s important that your Viognier glasses have a small enough bowl that the wine will not be in a lot of contact with the air as the oxygen can quickly destroy the aromatic notes for which this wine is so prized.  The aromatics of this wine commonly include violets, peaches, pears, and minerals and it’s important that you do everything to protect these amazing aromas. These wines are typically drunk a little young and can tend to be sweeter so the shape of the glass ensures that you have the best drinking experience. You won’t have to worry about missing some of the amazing floral aromas in this wine when you choose a high-quality Viognier glass to enjoy your drink.",
+            "image_path":"glassware/Viognier.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 22,
+        "fields": {
+            "name": "Sparkling",
+            "description":"Sparkling, or champagne, glasses are going to be much narrower than other white wine glasses and perfectly upright. This shape helps the glass retain the carbonation of the wine and will allow it to play on your tongue when you drink. People love these wine glasses because they are designed to promote carbonation while others with wider bowls would cause the wine to quickly go flat.  You will enjoy the taste and the aroma of the wine when you have your first sip, thanks to the shape of the glass and the small opening, as the drink will hit the tip of your tongue immediately. The shape of the glass also allows the aromas of the wine to flow upward, making it easy to smell and enjoy. A wide base is important as it ensures that your tall glass does not accidentally tip over and spill or get broken.",
+            "image_path":"glassware/Sparkling.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 23,
+        "fields": {
+            "name": "Sweet Wine",
+            "description":"Designed for sweeter and dessert wines, these glasses are smaller and have a much smaller rim than other white wine glasses. This makes them ideal for directing the wine to the back of the mouth. This ensures that the sweetness of the wine is not overwhelming and that the taste and feel of the wine can still be enjoyed.  In addition, swirling the wine will emphasize the acid content, which will also help combat the extreme sweetness that you can find in some sweet wines. Since dessert wines often have a higher alcohol content than other white wines, you will enjoy a smaller serving and the petite size of these glasses makes them the perfect size for an after-dinner drink. Thanks to the taper on their rim, they are easy to swirl and will keep a great balance between the air and the wine.",
+            "image_path":"glassware/Sweet-Wine.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 24,
+        "fields": {
+            "name": "Port",
+            "description":"Traditionally, these glasses are a little smaller and thinner than a Bordeaux glass but similarly shaped. Although the glass can usually hold between six and 12 ounces, it’s important that you don’t fill it more than halfway to ensure that you can really enjoy the aroma of the wine.",
+            "image_path":"glassware/Port.jpg"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 25,
+        "fields": {
+            "name": "Sherry",
+            "description":"Made specifically to hold and serve sherry, these glasses are very similar in appearance to port wine glasses. They have a very long stem to protect the quality of the drink while it is being enjoyed and a very small opening for the mouth. This directs the aroma of the sherry to the nose of the drinker and ensures that they are able to enjoy even the smallest nuances in their drink.",
+            "image_path":"glassware/Sherry.png"
+        }
+    },
+    {
+        "model":"notchlistApi.glassware",
+        "pk": 26,
+        "fields": {
+            "name": "Flute",
+            "description":"Taller and skinnier than all other wine glasses, this protects the carbonation and ensures that your wine stays bubbly while you enjoy it. The long stem ensures that the heat of your hand does not negatively affect the quality of your drink. The height of the glasses does more than simply ensure that the beverage stays well carbonated, it also improves the appearance of the drink and makes it more appetizing.",
+            "image_path":"glassware/Flute.png"
         }
     }
 ]

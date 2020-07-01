@@ -1,0 +1,236 @@
+[
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 1,
+        "fields":{
+            "name":"Amber Ale",
+            "description":"Amber ale is an emerging term used in Australia, France and North America for pale ales brewed with a proportion of amber malt and sometimes crystal malt to produce an amber colour generally ranging from light copper to light brown. A small amount of crystal or other coloured malt is added to the basic pale ale base to produce a slightly darker colour, as in some Irish and British pale ales",
+            "glassware_id":4
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 2,
+        "fields":{
+            "name":"Berliner Weisse",
+            "description":"Berliner Weisse is a cloudy, sour beer of around 3% alcohol by volume. It is a regional variation of the wheat beer style from Northern Germany, dating back to at least the 16th century. It can be made from combinations of malted barley and wheat, with the stipulation that the malts are kilned at very low temperatures to minimise colour formation. The fermentation takes place with a mixture of yeast and lactic acid bacteria, a prerequisite that creates the lactic acid taste, a distinguishing feature of Berlin Weisse.",
+            "glassware_id":6
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 3,
+        "fields":{
+            "name":"Blonde Ale",
+            "description":"Blonde ales are very pale in colour. The term blonde for pale beers is common in Europe and South America – particularly in France, Belgium, the UK, and Brazil – though the beers may not have much in common, other than colour. Blondes tend to be clear, crisp, and dry, with low-to-medium bitterness and aroma from hops, and some sweetness from malt. Fruitiness from esters may be perceived. A lighter body from higher carbonation may be noticed.",
+            "glassware_id":4
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 4,
+        "fields":{
+            "name":"Bock",
+            "description":"Traditional bock is a sweet, relatively strong (6.3%–7.2% by volume), lightly hopped (20–27 IBUs) lager. The beer should be clear, and colour can range from light copper to brown, with a bountiful and persistent off-white head. The aroma should be malty and toasty, possibly with hints of alcohol, but no detectable hops or fruitiness. The mouthfeel is smooth, with low to moderate carbonation and no astringency. The taste is rich and toasty, sometimes with a bit of caramel. Again, hop presence is low to undetectable, providing just enough bitterness so that the sweetness is not cloying and the aftertaste is muted.",
+            "glassware_id":4
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 5,
+        "fields":{
+            "name":"Brown Ale",
+            "description":"Brown ale is a style of beer with a dark amber or brown colour. The term was first used by London brewers in the late 17th century to describe their products, such as mild ale, though the term has a rather different meaning today. 18th century brown ales were lightly hopped and brewed from 100% brown malt",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 6,
+        "fields":{
+            "name":"Cider",
+            "description":"Cider is an alcoholic beverage made from the fermented juice of apples, although the legal definition for other fruit ciders can differ from country to country. Cider is popular in the United Kingdom (especially in the West Country) and the Republic of Ireland and widely available. The UK has the world's highest per capita consumption, as well as its largest cider-producing companies. Ciders from the South West of England, often referred to as ‘Rouge’ are generally stronger beverages and considered heritage ciders",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 7,
+        "fields":{
+            "name":"Cream Ale",
+            "description":"Cream Ale is related to pale lager. They are generally brewed to be light and refreshing with a straw to pale golden color. Hop and malt flavor is usually subdued but like all beer styles it is open to individual interpretation, so some breweries give them a more assertive character. Despite the name, Cream Ales do not typically contain any dairy products.  While Cream Ales are top-fermented ales, they typically undergo an extended period of cold-conditioning or lagering after primary fermentation is complete. This reduces fruity esters and gives the beer a cleaner flavor. Some examples also have a lager yeast added for the cold-conditioning stage or are mixtures of ales and lagers. Adjuncts such as corn and rice are used to lighten the body and flavor, although all-malt examples are available from many craft brewers.",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 8,
+        "fields":{
+            "name":"Dunkel",
+            "description":"Dunkel, is a word used for several types of dark German lager. Dunkel is the German word meaning dark, and dunkel beers typically range in color from amber to dark reddish brown. They are characterized by their smooth malty flavor. In informal terms, such as when ordering at a bar, dunkel is likely to mean whatever dark beer the bar has on tap, or sells most of; in much of north and western Germany, especially near Düsseldorf, this may be Altbier.",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 9,
+        "fields":{
+            "name":"Gose",
+            "description":"Gose is a warm fermented beer that originated in Goslar, Germany. It is usually brewed with at least 50% of the grain bill being malted wheat. Dominant flavours in gose include a lemon sourness, a herbal characteristic, and a strong saltiness (the result of either local water sources or added salt). Gose beers typically do not have prominent hop bitterness, flavours, or aroma. The beers typically have a moderate alcohol content of 4 to 5% ABV.",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 10,
+        "fields":{
+            "name":"Hefeweizen",
+            "description":"The Hefeweizen style is particularly noted for its low hop bitterness (about 15 IBUs) and relatively high carbonation (approaching four volumes), considered important to balance the beer's relatively malty sweetness. Another balancing flavor note unique to Hefeweizen beer is its phenolic character; its signature phenol is 4-vinyl guaiacol, a metabolite of ferulic acid, the result of fermentation by top-fermenting yeast appropriate for the style. Hefeweizen's phenolic character has been described as clove and medicinal but also smoky. Other more typical but less assertive flavour notes produced by Weißbier yeast include banana, bubble gum, and sometimes vanilla.",
+            "glassware_id":9
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 11,
+        "fields":{
+            "name":"India Pale Ale",
+            "description":"Characterized by floral, fruity, citrus-like, piney or resinous American-variety hop character, the IPA beer style is all about hop flavor, aroma and bitterness. This has been the most-entered category at the Great American Beer Festival for more than a decade, and is the top-selling craft beer style in supermarkets and liquor stores across the U.S.",
+            "glassware_id":4
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 12,
+        "fields":{
+            "name":"Kölsch",
+            "description":"Kölsch (German pronunciation: [kœlʃ]) is a style of beer originating in Cologne, Germany. It has an original gravity between 11 and 14 degrees Plato (specific gravity of 1.044 to 1.056). In appearance, it is bright and clear with a straw-yellow hue. Kölsch is one of the most strictly defined beer styles in Germany: according to the Konvention, it is a pale, highly attenuated, hoppy, bright top-fermenting beer.",
+            "glassware_id":10
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 13,
+        "fields":{
+            "name":"Lager",
+            "description":"Lager is a type of beer conditioned at low temperature.[1] Lagers can be pale, amber, or dark. Pale lager is the most widely consumed and commercially available style of beer.  As well as maturation in cold storage, most lagers are also distinguished by the use of Saccharomyces pastorianus yeast, a bottom-fermenting yeast that also ferments at relatively cold temperatures. It is possible to use lager yeast in a warm fermentation process, such as with American steam beer, while German Altbier and Kölsch are brewed with Saccharomyces cerevisiae top-fermenting yeast at a warm temperature, but with a cold-storage finishing stage, and classified as obergäriges lagerbier (top-fermented lager beer)",
+            "glassware_id":10
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 14,
+        "fields":{
+            "name":"Pale Ale",
+            "description":"Pale ale is a top-fermented beer made with predominantly pale malt.  The highest proportion of pale malts results in a lighter colour. The term first appeared around 1703 for beers made from malts dried with high-carbon coke, which resulted in a lighter colour than other beers popular at that time. Different brewing practices and hop levels have resulted in a range of different tastes and strengths within the pale ale family.",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 15,
+        "fields":{
+            "name":"Pilsner",
+            "description":"Quite possibly the most iconic beer style in modern history, the pilsner captured the attention of beer drinkers across the world and inspired a myriad of regional imitations. This lightly colored, exquisitely balanced lager remains one of the most loved beers to enjoy, and one of the most challenging for the brewer to create. Pilsner are characteristically light in color and have a very short finish. The world over, pilsner -style lagers have become the standard beer for many reasons, and American craft brewers have worked hard to put their own unique spin on this classic German beer",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 16,
+        "fields":{
+            "name":"Porter",
+            "description":"Porter is a style of beer that was developed in London, England in the early eighteenth century. It was well-hopped and dark in appearance due to the use of brown malt. The name originated due to its popularity with street and river porters.  The popularity of porter was significant, and it became the first beer style to be brewed across the world, and production had commenced in Ireland, North America, Sweden and Russia by the end of the eighteenth century.",
+            "glassware_id":8
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 17,
+        "fields":{
+            "name":"Saison",
+            "description":"Saison is a pale ale that is highly carbonated, fruity, spicy, and often bottle conditioned. It was historically brewed with low alcohol levels, but modern productions of the style have moderate to high levels of alcohol. Along with several other varieties, it is generally classified as a farmhouse ale.",
+            "glassware_id":1
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 18,
+        "fields":{
+            "name":"Scotch Ale",
+            "description":"The Scotch ale is overwhelmingly malty, with a rich and dominant sweet malt flavor and aroma. A caramel character is often part of the profile. Some examples feature a light smoked peat flavor. This style could be considered the Scottish version of an English-style barley wine. Overly smoked versions would be considered specialty examples.",
+            "glassware_id":5
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 19,
+        "fields":{
+            "name":"Stout",
+            "description":"American stout beer is perhaps one of the most identifiable creations of the American beer world. Stout beer is about as dark of an American beer as can be, and has a very noticeable of appearance, aroma and flavor. As one of the thicker, darker American beers on the craft beer scene, American stout beer is perfect for the colder seasons.",
+            "glassware_id":8
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 20,
+        "fields":{
+            "name":"Cabernet Sauvignon",
+            "description":"Cabernet Sauvignon is a full-bodied red grape first heavily planted in the Bordeaux region. Today, it’s the most popular wine variety in the world!  Wines are full-bodied with bold tannins and a long persistent finish driven mostly by the higher levels of alcohol and tannin that often accompany these wines.",
+            "glassware_id":14
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 21,
+        "fields":{
+            "name":"Zinfandel",
+            "description":"Zinfandel (aka Primitivo) is a medium-bodied red wine that originated in Croatia. Wines are fruit-forward and spicy with a medium length finish. Zinfandel is a red grape that may be better known in its pink variation, White Zinfandel.",
+            "glassware_id":17
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 22,
+        "fields":{
+            "name":"Pinot Noir",
+            "description":"Pinot Noir is a dry, light-bodied red that was first widely planted in France. The wines typically have higher acidity and soft a soft, smooth, low-tannin finish.",
+            "glassware_id":18
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 23,
+        "fields":{
+            "name":"Chardonnay",
+            "description":"Chardonnay is a dry full-bodied white wine that was planted in large quantities for the first time in France. When oak-aged, Chardonnay will have spicy, bourbon-y notes. Unoaked wines are lighter and zesty with apple and citrus flavors. Chardonnay is the white grape of Burgundy.",
+            "glassware_id":20
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 24,
+        "fields":{
+            "name":"Sauvignon Blanc",
+            "description":"Sauvignon Blanc is a dry white grape first widely planted in France. Wines are tart, typically with herbal, “green” fruit flavors.",
+            "glassware_id":20
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 25,
+        "fields":{
+            "name":"Pinot Gris",
+            "description":"Pinot Gris is a dry light-bodied white grape that is planted heavily in Italy, but also in France and Germany. Wines are light to middle-weight and easy drinking, often with some bitter flavor on the palate (bitter almond, quinine) ",
+            "glassware_id":20
+        }
+    },
+    {
+        "model": "notchlistApi.drink_style",
+        "pk": 26,
+        "fields":{
+            "name":"Riesling",
+            "description":"Always very high in acid, when made as a table wine Rieslings can be harmoniously sweet (sweet and sour) or dry (very acidic). The wine is polarizing because some people find dry styles too acidic and sweet styles too cloying, but sweetness is always a wine making decision and not inherent to the grape. ",
+            "glassware_id":23
+        }
+    }
+]
