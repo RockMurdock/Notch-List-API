@@ -49,4 +49,4 @@ This is the back-end counterpart to the full-stack [Notch-List Web App](https://
 1. Url Routing
 
 ## Entity Relationship Diagram
-![ERD](notchlist/ERD/Notch List (3).png)
+![ERD](notchlist/ERD/Notch-List.png)
